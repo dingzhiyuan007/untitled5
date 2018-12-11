@@ -12,6 +12,8 @@ urlpatterns = [
     re_path('v5/',views.v5),
     re_path('v6/',views.v7),
     re_path('v7/',views.v6),
+    re_path('v8/',views.v8),
+    re_path('v9/',views.v9),
 
 
 ]

@@ -40,3 +40,15 @@ def v6(request):
 def v7(request):
     return render_to_response('web1.html')
     # return HttpResponse('a')
+
+def v8(requset):
+    return render(requset,'web2.html')
+
+def v9(requset):
+    c= dict()
+    c['name1'] = 'wsc'
+    c['name2'] = 'wjl'
+    return render(requset,'web3.html',context=c)
+
+def v10(requset):
+    return render(requset,'web4.html')
